@@ -1,5 +1,14 @@
 * {
-    font-family: Roboto; 
+    box-sizing: border-box;
+}
+body {
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+
 }
 a {
     text-decoration: none; 
@@ -16,12 +25,24 @@ ul {
 }
 button {
     background-color: #3882F6;
+    color:#F9FAF8; 
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
 }
 
+.hero-signup {
+    align-self: flex-start;
+}
 .hero{
     display:flex; 
     flex-direction: column;
     background-color: #1F2937;
+    gap: 50px; 
 }
 .header{
     display:flex; 
@@ -39,6 +60,7 @@ button {
 .website-summary {
     display: flex; 
     flex-direction:column; 
+    gap: 5px; 
 
 }
 .website-summary-title{
@@ -53,7 +75,11 @@ button {
 }
 .summary-image {
     height: 150px; 
-    width: 500px; 
+    width: 400px; 
+    margin:10px; 
     background-color: lightgray;
     color:white; 
+    display: flex;
+    align-items:center; 
+    justify-content: center;
 }
