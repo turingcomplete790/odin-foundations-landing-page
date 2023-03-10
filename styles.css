@@ -90,6 +90,7 @@ button {
     display: flex; 
     flex-direction: column;
     align-items: center; 
+    gap: 10px; 
 }
 .information-title{
     font-size: 36px;
@@ -98,14 +99,24 @@ button {
 }
 .illustrations{
     display:flex;
+    gap: 5px; 
 }
 .illustration{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    flex-wrap: wrap;
 }
 
 .illustration-image{
+    border-radius: 5px;
     border: 2px solid #3882F6; 
     height: 150px; 
     width: 150px; 
+}
+
+.illustration-text{
+    padding:5px; 
+    margin: 5px; 
 }
