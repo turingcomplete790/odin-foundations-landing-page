@@ -24,7 +24,7 @@ ul {
     padding: 0; 
     gap: 10px; 
 }
-button {
+.hero-signup.signup {
     background-color: #3882F6;
     color:#F9FAF8; 
     border-radius: 10px;
