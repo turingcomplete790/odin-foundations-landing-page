@@ -147,3 +147,24 @@ ul {
     font-weight: 700;
     align-self: flex-end;
 }
+
+.signup-section{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    flex-basis:300px; 
+}
+.signup-box{
+    border-radius: 10px;
+    background-color: #3882F6;
+    display:flex; 
+    flex-basis: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.signup-info{
+    display:flex; 
+    flex-direction: column;
+    
+}
