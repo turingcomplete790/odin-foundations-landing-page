@@ -29,11 +29,9 @@ ul {
     background-color: #3882F6;
     color:#F9FAF8; 
     border-radius: 10px;
-    border-color: #3882F6;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 18px;
-    padding-right: 18px;
+    border:0; 
+    padding: 7px 1em; 
+    width: 120px; 
     transition-duration: 0.4s;
     font-size: 14px;
 }
