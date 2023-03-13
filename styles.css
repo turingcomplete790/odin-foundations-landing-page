@@ -5,10 +5,11 @@
 body {
     height: 100vh; 
     margin: 0; 
-    overflow: hidden; 
+    overflow: scroll; 
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 }
 a {
@@ -21,7 +22,7 @@ ul {
     display:flex; 
     justify-content: space-evenly;
     margin: 0; 
-    padding: 0; 
+    padding: 20px; 
     gap: 10px; 
 }
 .hero-signup.signup {
@@ -45,7 +46,7 @@ ul {
     flex-direction: column;
     background-color: #1F2937;
     gap: 50px; 
-    flex-basis: 300px;
+    height: 450px; 
 }
 .header{
     display:flex; 
@@ -54,11 +55,13 @@ ul {
 
 .hero .header .logo{
     font-size: 24px; 
-    color: #F9FAF8; 
+    color: #F9FAF8;
+    padding:20px;  
 }
 .hero-content{
     display:flex; 
     justify-content: center;
+    align-self: center;
 }
 .website-summary {
     display: flex; 
@@ -89,7 +92,7 @@ ul {
 /* CSS for secound section Illustrations */ 
 .information-block{
     display:flex; 
-    flex-basis: 400px;
+    height: 400px;
     justify-content: center;
 }
 .information{
@@ -97,7 +100,6 @@ ul {
     flex-direction: column;
     align-items: center; 
     gap: 20px; 
-    flex-basis: 75%;
     margin: 20px; 
 }
 .information-title{
@@ -135,7 +137,7 @@ ul {
 
 .quote-section{
     background-color: #E5E7EB;
-    flex-basis: 400px; 
+    height: 350px; 
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -162,7 +164,8 @@ ul {
     display:flex; 
     justify-content: center;
     align-items: center;
-    flex-basis:300px; 
+    height:200px; 
+    flex: 1 0 auto; 
 }
 .signup-box{
     border-radius: 10px;
@@ -194,4 +197,13 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 
+}
+/*CSS for footer */
+.footer{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 50px; 
 }
